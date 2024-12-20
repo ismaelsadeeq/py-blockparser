@@ -27,7 +27,7 @@ This is a simple blockchain block parser that utilizes **libbitcoinkernel** thro
 3. Run the application:
 
     ```bash
-    python3 src/main.py --datadir='<directory>' --chain_type=<chain> --start_height=<height> --end_height=<height>
+    python src/main.py --datadir='<directory>' --chain_type=<chain> --start_height=<height> --end_height=<height>
     ```
 
 This is a simple example that demonstrates how to use the Python wrapper for the `libbitcoinkernel` library to read blockchain data from a specified height range.
