@@ -1,0 +1,17 @@
+[project]
+name = "py-bitcoinblockchainparser"
+version = "0.1.0"
+description = "A Simple script that parses the blockchain using libbitcoinkernel py-bitcoinkernel library"
+authors = [
+    { name = "Abubakar Sadiq Ismail", email = "abubakarsadiqismail@protonmail.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+dependencies = [
+  "python-bitcoinlib>=0.12.2",
+  "py-bitcoinkernel @ git+https://github.com/stickies-v/py-bitcoinkernel@59332f4d25554bc75fee87ce0e60c3f92b8d7e94",
+]
+requires-python=">3.10"
+
+[tool.setuptools]
+packages = { find = { where = ["src"] } }
